@@ -1,3 +1,12 @@
+/*Tikeshwar _Dewangan,by this code you can make your smart switch with real time feedback you
+ * can use your smartphone to turn on and off your appliances and also you can on off your appliances 
+ * with the normal switch. 
+ * when you turn on or off from switch you get the real time feedback in the blynk app
+ * this code is for node mcu board esp8266.
+ * this code is for Blynk app,you have to download the blynk app from respected play store or app store
+ * I take the techisms code as reference  which he written for esp32.
+ */
+
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 BlynkTimer timer;
@@ -6,17 +15,17 @@ BlynkTimer timer;
 #define DEBUG_SW 0
 
 
-#define S1 D0
+#define S1 D5
 #define R1 D1
 
-#define S2 D2
-#define R2 D3
+#define S2 D6
+#define R2 D2
 
-#define S3 D4
-#define R3 D5
+#define S3 D7
+#define R3 D3
 
-#define S4 D6
-#define R4 D7
+#define S4 D8
+#define R4 D4
 
 
 
